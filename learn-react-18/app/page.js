@@ -5,10 +5,14 @@ import Todos from "@/app/components/Todos";
 
 export default function Home() {
     return (
-        <>
-            <Todos/>
-            <Todos/>
-            <Todos/>
-        </>
+        <main className="text-center flex flex-col justify-center px-6 h-[100vh]">
+            <section className="m-auto text-center text-left">
+                <Todos/>
+                <Todos/>
+                <Todos/>
+                <Todos/>
+                <Todos/>
+            </section>
+        </main>
     )
 }
